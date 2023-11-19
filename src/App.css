@@ -1,0 +1,151 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+
+.main-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
+}
+.image-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+img{
+  width: 60px;
+  height: 60px;
+}
+.input-section{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.input-section input{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 300px;
+  height: 30px;
+  background: #eaeaea;
+  border: transparent;
+  outline: none;
+  border-radius: 9px;
+  margin-left: -44px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+ 
+}
+.icon-container{
+  
+  margin-left: -54px;
+  margin-top: 5px;
+  font-size: 17px;
+  color: black;
+  cursor: pointer;
+}
+.icon-container:hover{
+  color: blue
+}
+.all-item{
+display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 300px;
+  height: 30px;
+  background-color: #eaeaea;
+  color: blue;
+  margin-top: 30px;
+  border-radius: 9px;
+}
+.all-item:hover{
+  background-color: blue;
+  color: wheat;
+}
+.each-item{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  margin-left: 10px;
+  
+ 
+ 
+
+}
+.trash-icon{
+ margin-right: 5px;display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+.trash-icon:hover{
+  color: red;
+}
+button{
+  border: 2px solid red;
+  background-color: orange;
+  outline: none;
+  border-radius: 9px;
+  width: 87px;
+  height: 30px;
+margin-top: 20px;  
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+cursor: pointer;
+}
+button:hover{
+  border: orange;
+  color: black;
+  background-color: red;
+}
+.text{
+  font-size: 15px;
+  
+}
